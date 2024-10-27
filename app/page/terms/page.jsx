@@ -5,49 +5,55 @@ import styles from "@/app/style/info.module.css";
 export default function TermsPage() {
   return (
     <div className={styles.infoWrapper}>
-      <h1>Terms and Condition </h1>
+      <h1>Terms of Service for Bibilia Mashinani USSD System </h1>
       <div className={styles.infoContain}>
         <div className={styles.contain}>
-          <h2>1.Definitions</h2>
+          <h2>1.Acceptance of Terms</h2>
           <p>
-            Clearly define key terms such as Swift Dash, Customer, Delivery, and
-            Courier.
+          By using the Bibilia Mashinani USSD system, you agree to these Terms of Service. If you do not agree, please do not use the service
           </p>
-          <h2>2. General Provisions </h2>
+          <h2>2. Description of Service </h2>
           <p>
-            Agreement to adhere to the outlined terms upon engaging Swift Dashs
-            services.
+          Bibilia Mashinani provides users with access to gospel content through a USSD system. The service is designed to spread the message of the gospel in an accessible manner.
+
           </p>
-          <h2> 3. Delivery Services </h2>
+          <h2> 3. User Responsibilities
+          </h2>
           <p>
-            We may automatically collect certain information about your device,
-            including your IP address, browser type, and operating system.
+          Users must provide accurate information when prompted
           </p>
-          <h2>4. Customer Responsibilities </h2>
           <p>
-            Expectations for the Customer regarding packaging, labeling, and
-            providing accurate pickup and delivery details.
+          Users are responsible for maintaining the confidentiality of their personal information.
           </p>
-          <h2> 5. Payment and Fee </h2>
           <p>
-            Guidelines for payment, including when it should be made and
-            potential additional charges.
+            Users agree not to use the service for illegal or harmful activities.
           </p>
-          <h2>6. Payment and Fee </h2>
+          <h2>4. Charges</h2>
           <p>
-            Guidelines for payment, including when it should be made and
-            potential additional charges.
+          Standard USSD charges will  apply based on the user's mobile network provider. Users should check with their provider for details.
           </p>
-          <h2>7. Liability </h2>
+          <h2> 5. Intellectual Property </h2>
           <p>
-            Statement of Swift Dashs limited liability for loss, damage, or
-            delay during delivery, and disclaimer of responsibility for indirect
-            damage
+          All content, trademarks, and other intellectual property associated with Bibilia Mashinani are owned by  Bibilia mashinani development team and our licensors. Users should not reproduce or distribute any content without permission.
+
           </p>
-          <h2>8. Termination of Service </h2>
+          <h2>6. Limitation of Liability </h2>
           <p>
-            Stipulation of Swift Dashs right to refuse or terminate service to
-            any Customer without providing a reason
+          Bibilia Mashinani is not liable for any direct, indirect, incidental, or consequential damages arising from the use of or inability to use the service.
+
+          </p>
+          <h2>7. Changes to Terms
+          </h2>
+          <p>
+          We reserve the right to modify these Terms of Service at any time. Users will be notified of major changes.
+
+          </p>
+          <h2>
+            8. Governing Law
+          </h2>
+          <p>
+          These terms are governed by the laws of the jurisdiction in which Bibilia Mashinani operates.
+
           </p>
           <h2>9. Governing Law</h2>
           <p>

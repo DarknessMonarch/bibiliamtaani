@@ -5,26 +5,20 @@ import styles from "@/app/style/info.module.css";
 export default function PolicyPage() {
   return (
     <div className={styles.infoWrapper}>
-      <h1>Privacy Policy </h1>
+      <h1>Privacy Policy for Bibilia Mashinani USSD System </h1>
       <div className={styles.infoContain}>
         <h2>1. Information We Collect</h2>
         <div className={styles.contain}>
           <h3>Personal Information</h3>
           <p>
-            We may collect personal information such as your name, contact
-            details, delivery addresses, and payment information when you engage
-            our services.
+            We may collect personal information such as your name abd contact
+            details for our services.
           </p>
-          <h3> Transaction Information </h3>
+
+          <h3> Data Sharing</h3>
           <p>
-            We collect information about your transactions with us, including
-            details of the deliveries you request and any communications
-            exchanged.
-          </p>
-          <h3> Device Information </h3>
-          <p>
-            We may automatically collect certain information about your device,
-            including your IP address, browser type, and operating system.
+            We do not sell or rent your personal information to third parties.
+            We may share information with:
           </p>
         </div>
       </div>
@@ -81,7 +75,9 @@ export default function PolicyPage() {
         <h2>5. Data Retention</h2>
         <div className={styles.contain}>
           <p>
-          We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.
+            We retain your personal information for as long as necessary to
+            fulfill the purposes outlined in this Privacy Policy, unless a
+            longer retention period is required or permitted by law.
           </p>
         </div>
       </div>
@@ -122,9 +118,8 @@ export default function PolicyPage() {
         <h2>9. Contact Us</h2>
         <div className={styles.contain}>
           <p>
-            If you have any questions or concerns about our Privacy Policy or
-            our data practices, please contact us at [contact email or phone
-            number].
+            For questions or concerns regarding this Terms of Service and
+            Privacy Policy, please contact us at 0728225125
           </p>
           <p>
             By using our delivery services, you consent to the collection, use,
