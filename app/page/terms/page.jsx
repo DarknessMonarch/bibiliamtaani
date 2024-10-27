@@ -30,7 +30,7 @@ export default function TermsPage() {
           </p>
           <h2>4. Charges</h2>
           <p>
-          Standard USSD charges will  apply based on the user's mobile network provider. Users should check with their provider for details.
+          Standard USSD charges will  apply based on the user&rsquo;s mobile network provider. Users should check with their provider for details.
           </p>
           <h2> 5. Intellectual Property </h2>
           <p>

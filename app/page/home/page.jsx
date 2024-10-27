@@ -34,6 +34,7 @@ export default function HomePage() {
               <Image
                 className={styles.heroImg}
                 src={HeroImg}
+                alt="Hero image"
                 height={500}
                 priority={true}
               />
