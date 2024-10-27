@@ -1,0 +1,141 @@
+@media screen {
+  .aboutContainer {
+    gap: 40px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column-reverse;
+  }
+
+  .aboutImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .aboutInfo{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutInfo h4 {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    color: var(--secondary-color);
+  }
+
+  .aboutInfo h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: justify;
+  }
+
+  .aboutInfoTop {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutInfoContainer {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infoAboutContainer {
+    gap: 20px;
+    display: flex;
+  }
+
+  .infoAboutIcon {
+    width: 60px;
+    height: 70px;
+    display: flex;
+    display: flex;
+    min-width: 80px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--background-shadow);
+    background-color: var(--secondary-color);
+  }
+
+  .aboutIcon {
+    color: var(--background-color);
+  }
+
+  .infoAboutWrapper {
+    gap:5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infoAboutWrapper h1 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: start;
+    color: var(--secondary-color);
+  }
+
+  .infoAboutWrapper p {
+    font-size: 1rem;
+  }
+}
+
+/* using it as global style for larger devices  */
+@media only screen and (min-width: 48em) {
+  .aboutContainer {
+    height: 100vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .aboutInfo {
+    width: 700px;
+    text-align: start;
+  }
+
+  .aboutWrapper {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aboutImg {
+    height: 700px;
+  }
+
+  .aboutInfo h4 {
+    text-align: start;
+    font-size: 1.2rem;
+  }
+
+  .aboutInfo h1 {
+    text-align: start;
+    font-size: 1.4rem;
+  }
+
+
+  .infoAboutWrapper h1 {
+    font-size: 1.2rem;
+  }
+
+
+}
+
+/* ipad pro screens & laptop */
+@media only screen and (min-width: 49em) and (max-width: 64em) {
+}
+
+/* large screens : Desktop and 4k screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
+
+/* 5k screens and above */
+@media only screen and (min-width: 91em) {
+}
