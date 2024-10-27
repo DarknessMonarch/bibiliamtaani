@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "@/app/style/aboutinfopage.module.css";
-import AboutImage from "@/public/assets/aboutinfo.png";
+import AboutImage from "@/public/assets/aboutInfo.png";
 
 const aboutInfoData = [
   {
