@@ -127,9 +127,9 @@ export default function Navbar() {
             Service
           </Link>
           <Link
-            href="/page/Contact"
+            href="/page/contact"
             className={`${styles.sideLinkContainer} ${
-              pathname === "/page/Contact" ? styles.activeLink : ""
+              pathname === "/page/contact" ? styles.activeLink : ""
             }`}
           >
             Contact
